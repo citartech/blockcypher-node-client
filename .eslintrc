@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "standard"
+  ],
+  "rules": {
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-extra-semi": 0,
+    "no-trailing-spaces": 0,
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "info",
+          "warn",
+          "error"
+        ]
+      }
+    ]
+  }
+}
